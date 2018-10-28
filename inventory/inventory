@@ -1,0 +1,8 @@
+[homelab]
+10.20.116.196 ansible_user=mhuens2s ansible_become=yes
+10.20.116.202 ansible_user=mhuens2s ansible_become=yes
+
+[others]
+2001:638:408:200::babe:0:1 ansible_user=stud ansible_become=yes
+2001:638:408:200::babe:0:2 ansible_user=stud ansible_become=yes
+2001:638:408:200::babe:0:3 ansible_user=stud ansible_become=yes
