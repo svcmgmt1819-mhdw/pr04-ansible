@@ -1,0 +1,7 @@
+#!/usr/bin/env ansible-playbook
+---
+
+    - name: Upgrade Operating System
+      hosts: all
+      roles:
+        - upgrade
